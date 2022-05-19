@@ -8,7 +8,7 @@ class Employee{
       char EmpName[100];
       char Position[30];
       Branch *br;
-      Customer cus*;
+ 
     public:
        Employee();
        Employee(int id,char name[],char post,Branch *pbr){
